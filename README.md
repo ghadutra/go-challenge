@@ -49,6 +49,7 @@ O objetivo deste desafio é implementar um sistema de chat utilizando Go e Postg
     - Modifique o `README.md` com instruções sobre como rodar o sistema e os testes.
     - Submeta o repositório Git com a solução implementada.
     - Se existir SQL para criação do banco de dados, inclua-o em um arquivo `schema.sql`.
+    - Forneça uma collection do postman com as rotas implementadas.
 
 ## Como Rodar
 
