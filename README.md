@@ -22,7 +22,8 @@ O objetivo deste desafio é implementar um sistema de chat utilizando Go e Postg
     - O sistema deve esperar 10 segundos após receber uma mensagem antes de gerar uma resposta do assistente.
     - Se o usuário enviar várias mensagens dentro do intervalo de 10 segundos, o assistente deve responder a todas as mensagens recebidas em uma única resposta.
     - A resposta do assistente deve seguir o formato: `RESPOSTA DO ASSISTENTE PARA MENSAGEM: {X}`, onde `{X}` são as mensagens do usuário concatenadas.
-
+    - **Atenção, não é necessário implementar nenhuma inteligência artificial ou chatbot. A resposta deve sempre seguir o padrão mencionado no ponto anterior**.
+    - O sistema deve ser capaz de processar múltiplos chats simultaneamente, garantindo que as respostas sejam geradas corretamente.
 3. **Banco de Dados:**
     - O sistema deve utilizar PostgreSQL para armazenar chats e mensagens.
     - As tabelas devem ser estruturadas para suportar múltiplas mensagens por chat, com indicações claras de autoria (usuário ou assistente).
