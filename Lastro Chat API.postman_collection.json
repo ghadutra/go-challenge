@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "40b80a88-0d3c-488c-94bd-08d461db6043",
+		"name": "Lastro Chat API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4086238"
+	},
+	"item": [
+		{
+			"name": "Send Message",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"chat_id\": \"1\", \"content\": \"Hello, this is a test message!\"}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/chat",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Messages",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/chat?chat_id=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"chat"
+					],
+					"query": [
+						{
+							"key": "chat_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
