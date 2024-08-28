@@ -58,7 +58,11 @@ O objetivo deste desafio é implementar um sistema de chat utilizando Go e Postg
        git clone <repo_url>
        cd go-challenge
     ```
-2. Execute o sistema:
+2. Execute o docker-compose para ter acesso ao banco de dados local
+    ```bash
+        docker-compose up -d
+    ```
+3. Execute o sistema:
     ```bash
        go run main.go
     ```
